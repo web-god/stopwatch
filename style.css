@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(56, 74, 83);
+    color:white;
+   
+    
+}
+
+#container{
+    text-align: center;
+    margin-top:250px;
+}
+
+#stopwatch span{
+    padding: 20px;
+}
+
+.time{
+    font-size:240px;
+}
+
+.notation{
+    font-size:60px;
+}
+
+#buttons button{
+padding:20px;
+width:120px;
+margin:30px;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+#buttons button:nth-child(1){
+    background-color: rgb(26, 165, 105);
+}
+
+#buttons button:nth-child(2){
+    background-color: rgb(96, 167, 196);
+}
+
+#buttons button:nth-child(3){
+    background-color: red;
+}
